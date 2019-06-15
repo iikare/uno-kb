@@ -1,9 +1,5 @@
-/* Arduino USB HID Keyboard Demo
- * Random Key/Random Delay
- */
-
 uint8_t buf[8] = { 
-  0 }; 	/* Keyboard report buffer */
+  0 };
 
 void setup() {
   Serial.begin(9600);
