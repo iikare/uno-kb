@@ -29,5 +29,5 @@ void endstroke(){
 
   Serial.write(buf, 8);
 
-  delay(500);
+  delay(25);
 }
