@@ -9,7 +9,7 @@ void setup(){
   pinMode(PIN_KEYSWITCH, INPUT);
   digitalWrite(PIN_KEYSWITCH, 1);
 
-  delay(200);
+  delay(100);
 }
 
 void loop(){
